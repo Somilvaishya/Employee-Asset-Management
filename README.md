@@ -1,33 +1,32 @@
-### Employee Asset Management
+# Employee Asset Management
 
-Asset Management System
+A comprehensive asset management system for Frappe/ERPNext v16.
 
-### Installation
+## Features
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+- **Asset Category Master**: Define categories with maximum limits per employee and approval requirements.
+- **Company Asset Master**: Track individual assets, their current status (Available, Assigned, Maintenance, Retired), and current holder.
+- **Asset Request**: Employee portal for requesting assets with urgency and approval workflow.
+- **Asset Assignment**: Formalize asset issuance with automated status updates.
+- **Asset Return**: Track returns with condition monitoring and automated damage notifications.
+- **Reporting**: "Employee Asset Register" for an overview of all issued assets.
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app employee_asset_management
-```
+## Installation
 
-### Contributing
+1. Get the app:
+   ```bash
+   bench get-app employee_asset_management
+   ```
+2. Install the app on your site:
+   ```bash
+   bench --site yourcurrentsite install-app employee_asset_management
+   ```
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Workflow
 
-```bash
-cd apps/employee_asset_management
-pre-commit install
-```
+The **Asset Request** DocType follows a formal workflow:
+`Draft` -> `Pending Approval` -> `Approved` / `Rejected` -> `Fulfilled` (automatically updated on Assignment).
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+## Notifications
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-mit
+Administrators are automatically notified via email when an asset is returned in **Damaged** condition.
