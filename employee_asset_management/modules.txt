@@ -1,4 +1,1 @@
-Asset Masters
-Asset Transactions
-Reports
-Asset Automation
+Employee Asset Management

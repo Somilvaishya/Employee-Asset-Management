@@ -1,0 +1,14 @@
+{
+    "creation": "2026-03-19 23:25:00.000000",
+    "docstatus": 0,
+    "doctype": "Number Card",
+    "document_type": "Company Asset",
+    "function": "Count",
+    "is_standard": 1,
+    "label": "Total Assets",
+    "modified": "2026-03-19 23:25:00.000000",
+    "modified_by": "Administrator",
+    "module": "Employee Asset Management",
+    "name": "Total Assets",
+    "owner": "Administrator"
+}

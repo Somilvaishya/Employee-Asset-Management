@@ -1,0 +1,16 @@
+{
+    "app_name": "employee_asset_management",
+    "creation": "2026-03-19 23:30:00.000000",
+    "docstatus": 0,
+    "doctype": "Module Def",
+    "idx": 0,
+    "is_standard": "Yes",
+    "modified": "2026-03-19 23:30:00.000000",
+    "modified_by": "Administrator",
+    "module_name": "Employee Asset Management",
+    "name": "Employee Asset Management",
+    "owner": "Administrator",
+    "package": "Employee Asset Management",
+    "restrict_to_domain": "",
+    "module": "Employee Asset Management"
+}

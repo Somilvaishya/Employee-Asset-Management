@@ -1,0 +1,61 @@
+{
+    "category": "Modules",
+    "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Asset Management Dashboard\", \"level\": 2}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"Assets by Category\"}}, {\"type\": \"spacer\", \"data\": {}}, {\"type\": \"header\", \"data\": {\"text\": \"Key Metrics\", \"level\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Assets\"}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Available Assets\"}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Requests\"}}]",
+    "creation": "2026-03-19 23:20:00.000000",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "icon": "assets",
+    "idx": 0,
+    "is_standard": 1,
+    "label": "Employee Asset Management",
+    "links": [
+        {
+            "label": "Asset Assignment",
+            "link_to": "Asset Assignment",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Asset Return",
+            "link_to": "Asset Return",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Asset Category",
+            "link_to": "Asset Category",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Company Asset",
+            "link_to": "Company Asset",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Asset Request",
+            "link_to": "Asset Request",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Employee Asset Register",
+            "link_to": "Employee Asset Register",
+            "link_type": "Report",
+            "type": "Link"
+        }
+    ],
+    "modified": "2026-03-20 01:20:00.000000",
+    "modified_by": "Administrator",
+    "module": "Employee Asset Management",
+    "name": "Employee Asset Management",
+    "owner": "Administrator",
+    "title": "Employee Asset Management",
+    "public": 1,
+    "roles": [
+        {
+            "role": "System Manager"
+        }
+    ]
+}

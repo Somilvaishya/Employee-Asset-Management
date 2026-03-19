@@ -1,0 +1,105 @@
+{
+    "actions": [],
+    "allow_import": 1,
+    "autoname": "field:asset_name",
+    "creation": "2026-03-18 22:56:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "asset_name",
+        "asset_category",
+        "serial_number",
+        "column_break_4",
+        "purchase_date",
+        "purchase_value",
+        "section_break_7",
+        "current_status",
+        "current_holder",
+        "condition"
+    ],
+    "fields": [
+        {
+            "fieldname": "asset_name",
+            "fieldtype": "Data",
+            "label": "Asset Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "asset_category",
+            "fieldtype": "Link",
+            "label": "Asset Category",
+            "options": "Asset Category",
+            "reqd": 1
+        },
+        {
+            "fieldname": "serial_number",
+            "fieldtype": "Data",
+            "label": "Serial Number",
+            "reqd": 1,
+            "unique": 1
+        },
+        {
+            "fieldname": "column_break_4",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "purchase_date",
+            "fieldtype": "Date",
+            "label": "Purchase Date"
+        },
+        {
+            "fieldname": "purchase_value",
+            "fieldtype": "Currency",
+            "label": "Purchase Value"
+        },
+        {
+            "fieldname": "section_break_7",
+            "fieldtype": "Section Break",
+            "label": "Current Status"
+        },
+        {
+            "default": "Available",
+            "fieldname": "current_status",
+            "fieldtype": "Select",
+            "label": "Current Status",
+            "options": "Available\nAssigned\nMaintenance\nRetired"
+        },
+        {
+            "fieldname": "current_holder",
+            "fieldtype": "Link",
+            "label": "Current Holder",
+            "options": "Employee",
+            "read_only": 1
+        },
+        {
+            "fieldname": "condition",
+            "fieldtype": "Select",
+            "label": "Condition",
+            "options": "New\nGood\nFair\nPoor"
+        }
+    ],
+    "index_view": 1,
+    "modified": "2026-03-18 22:56:00.000000",
+    "modified_by": "Administrator",
+    "module": "Employee Asset Management",
+    "name": "Company Asset",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "title_field": "asset_name"
+}

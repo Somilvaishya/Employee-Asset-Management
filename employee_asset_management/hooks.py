@@ -10,7 +10,14 @@ app_license = "mit"
 # Request logic is in its controller.
 
 # Fixtures for sample data
+# These are handled by the consolidated module.
 fixtures = [
-    {"dt": "Asset Category", "filters": [["name", "in", ["Laptop", "Mobile Phone", "ID Card"]]]},
-    {"dt": "Company Asset", "filters": [["name", "in", ["Dell Laptop #001", "Dell Laptop #002", "iPhone 14 #001"]]]}
+    {"dt": "Asset Category"},
+    {"dt": "Company Asset"},
+    {"dt": "Asset Request"},
+    {"dt": "Asset Assignment"},
+    {"dt": "Asset Return"},
+    {"dt": "Number Card"},
+    {"dt": "Dashboard Chart"},
+    {"dt": "Workspace"}
 ]

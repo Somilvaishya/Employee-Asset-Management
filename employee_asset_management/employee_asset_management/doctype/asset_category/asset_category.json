@@ -1,0 +1,59 @@
+{
+    "actions": [],
+    "allow_import": 1,
+    "autoname": "field:category_name",
+    "creation": "2026-03-18 22:55:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "category_name",
+        "requires_approval",
+        "max_per_employee"
+    ],
+    "fields": [
+        {
+            "fieldname": "category_name",
+            "fieldtype": "Data",
+            "label": "Category Name",
+            "reqd": 1,
+            "unique": 1
+        },
+        {
+            "default": "0",
+            "fieldname": "requires_approval",
+            "fieldtype": "Check",
+            "label": "Requires Approval"
+        },
+        {
+            "default": "1",
+            "fieldname": "max_per_employee",
+            "fieldtype": "Int",
+            "label": "Max per Employee",
+            "reqd": 1
+        }
+    ],
+    "index_view": 1,
+    "modified": "2026-03-18 22:55:00.000000",
+    "modified_by": "Administrator",
+    "module": "Employee Asset Management",
+    "name": "Asset Category",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "title_field": "category_name"
+}
